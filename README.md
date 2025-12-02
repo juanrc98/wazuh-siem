@@ -1,4 +1,4 @@
-#  Wazuh SIEM Lab - Proyecto de Monitorización y Detección de Amenazas
+#  Wazuh SIEM - Proyecto de Monitorización y Detección de Amenazas
 
  Descripción del Proyecto
 -  Despliegue y configuración de infraestructura SIEM
