@@ -8,8 +8,6 @@
 -  Análisis forense de eventos de seguridad
 -  Threat Hunting y correlación de eventos
 
-    Casos de Uso Demostrados
-
 ### 1 Interfaz de Acceso al SIEM
 
 https://github.com/juanrc98/wazuh-siem/blob/main/1%20Wazuh%20Interfaz%20Login.png
