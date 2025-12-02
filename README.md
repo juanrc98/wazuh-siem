@@ -1,4 +1,4 @@
-# 🛡️ Wazuh SIEM Lab - Proyecto de Monitorización y Detección de Amenazas
+#  Wazuh SIEM Lab - Proyecto de Monitorización y Detección de Amenazas
 
  Descripción del Proyecto
 -  Despliegue y configuración de infraestructura SIEM
@@ -12,7 +12,7 @@
 
 ### 1 Interfaz de Acceso al SIEM
 
-![Wazuh Login Interface](screenshots/1%20Wazuh%20Interfaz%20Login.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/1%20Wazuh%20Interfaz%20Login.png
 
 **Plataforma Wazuh SIEM** - Sistema de gestión de eventos de seguridad open source diseñado para monitorización 24/7, detección de amenazas y respuesta a incidentes en entornos empresariales.
 
@@ -20,7 +20,7 @@
 
 ### 2 Dashboard Principal de Seguridad
 
-![Dashboard Overview](screenshots/2%20Dashboard.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/2%20Dashboard.png
 
 **Vista general del estado de seguridad:**
 - **Agentes**: 1 agente desconectado (requiere investigación)
@@ -40,7 +40,7 @@
 
 ### 3 Menú de Navegación - Módulos del SIEM
 
-![Navigation Menu](screenshots/3%20Men%C3%BA%20de%20navegacion.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/3%20Men%C3%BA%20de%20navegacion.png
 
 **Estructura modular de Wazuh:**
 - **Endpoint Security**: Gestión de seguridad de endpoints
@@ -54,7 +54,7 @@
 
 ### 4 Despliegue de Agentes - Opciones Multiplataforma
 
-![Deploy Agents](screenshots/4%20Deploy%20agents.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/4%20Deploy%20agents.png
 
 **Wizard de despliegue con soporte para:**
 - **Linux**: RPM (amd64/aarch64), DEB (amd64/aarch64)
@@ -70,7 +70,7 @@
 
 ### 5 Creación de Nuevo Agente
 
-![Create New Agent](screenshots/5%20Crear%20un%20nuevo%20agent.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/5%20Crear%20un%20nuevo%20agent.png
 
 **Proceso de registro de agente Windows:**
 - Selección de arquitectura: MSI 32/64 bits
@@ -82,7 +82,7 @@
 
 ### 6 Configuración Avanzada del Agente
 
-![Agent Configuration](screenshots/6%20Modificando%20configuracion%20agente.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/6%20Modificando%20configuracion%20agente.png
 
 **Parámetros de configuración:**
 - Asignación a grupos de agentes (Default)
@@ -93,7 +93,7 @@
 
 ### 7 Comandos de Instalación Automatizada
 
-![Installation Commands](screenshots/7%20Comandos%20para%20configurar%20Endpoint.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/7%20Comandos%20para%20configurar%20Endpoint.png
 
 **Script de instalación en Linux (Ubuntu/Debian):**
 ```bash
@@ -111,7 +111,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 8 Instalación del Agente en Endpoint
 
-![Agent Installation](screenshots/8%20Implantando%20agente%20en%20Endpoint.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/8%20Implantando%20agente%20en%20Endpoint.png
 
 **Proceso de instalación ejecutado:**
 1. Descarga del paquete desde repositorio oficial (11.07 MB)
@@ -126,7 +126,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 9 Verificación de Agente Añadido
 
-![Agent Added Verification](screenshots/9.%20Vemos%20como%20se%20a%C3%B1ade%20el%20Endpointpng)
+https://github.com/juanrc98/wazuh-siem/blob/main/9.%20Vemos%20como%20se%20a%C3%B1ade%20el%20Endpointpng
 
 **Estado post-instalación:**
 - **Agentes por estado**: 1 activo, 0 desconectados, 0 pendientes, 1 nunca conectado
@@ -140,7 +140,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 10 Monitoreo de Endpoints Activos
 
-![Active Endpoints](screenshots/10%20Monitoreo%20de%20Endpoint.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/10%20Monitoreo%20de%20Endpoint.png
 
 **Vista de gestión de agentes:**
 - **Estado**: 1 agente activo 
@@ -161,7 +161,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 11 Simulación de Ataque al Endpoint
 
-![Attack Simulation](screenshots/11%20Simulamos%20ataque%20al%20Endpoint.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/11%20Simulamos%20ataque%20al%20Endpoint.png
 
 **Escaneo de red detectado con Nmap:**
 
@@ -191,7 +191,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 12 Inventario de Vulnerabilidades Detectadas
 
-![Vulnerability Inventory](screenshots/12%20Vulnerabilidades%20Endpoint.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/12%20Vulnerabilidades%20Endpoint.png
 
 **Análisis de vulnerabilidades del agente `metasploitable3-ub1404`:**
 
@@ -236,7 +236,7 @@ dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
 
 ### 13 Detección de Técnica de Evasión (MITRE ATT&CK)
 
-![Defense Evasion Detection](screenshots/13%20Detecci%C3%B3n%20de%20ataque.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/13%20Detecci%C3%B3n%20de%20ataque.png
 
 **Alerta de seguridad: Defense Evasion detectada**
 
@@ -271,9 +271,7 @@ La desconexión del agente Wazuh es una técnica común utilizada por atacantes 
 ---
 
 ### 14 Dashboard MITRE ATT&CK y Eventos Totales
-
-![Total Events Dashboard](screenshots/14%20Total%20ataques%20recibidos.png)
-
+https://github.com/juanrc98/wazuh-siem/blob/main/14%20Total%20ataques%20recibidos.png
 **Vista completa de telemetría de seguridad:**
 
 #### Estado del Agente
@@ -343,12 +341,12 @@ sudo systemctl start wazuh-agent
 
  🚀 Próximos Pasos
 
-- [ ] Implementar reglas personalizadas de correlación
-- [ ] Integrar feeds de Threat Intelligence
-- [ ] Automatizar respuesta a incidentes con scripts
-- [ ] Configurar alertas por email/Slack
-- [ ] Expandir coverage a entornos Windows y cloud
-- [ ] Implementar honeypots para detección avanzada
+-  Implementar reglas personalizadas de correlación
+-  Integrar feeds de Threat Intelligence
+-  Automatizar respuesta a incidentes con scripts
+-  Configurar alertas por email/Slack
+-  Expandir coverage a entornos Windows y cloud
+-  Implementar honeypots para detección avanzada
 
 ---
 
