@@ -285,7 +285,7 @@ https://github.com/juanrc98/wazuh-siem/blob/main/14%20Total%20ataques%20recibido
 - **Registration Date**: 10 Oct 2025, 11:45:53
 - **Last Keep Alive**: 2 Dic 2025, 20:36:16
 
-#### 📈 Events Count Evolution (Últimas 24h)
+####  Events Count Evolution (Últimas 24h)
 Gráfica temporal mostrando pico significativo de eventos:
 - **Pico máximo**: ~200 eventos alrededor de las 18:00-19:00h
 - **Tendencia**: Actividad normal durante el día, incremento exponencial al final de la tarde
