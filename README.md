@@ -28,7 +28,7 @@ Una vez realizado esto, solo necesitaremos irnos a un navegador e introducir la 
 
 ### 1 Interfaz de Acceso al SIEM
 
-https://github.com/juanrc98/wazuh-siem/blob/main/1%20Wazuh%20Interfaz%20Login.png
+![Interfaz de Login](1%20Wazuh%20Interfaz%20Login.png)
 
 Plataforma Wazuh SIEM - Sistema de gestión de eventos de seguridad open source diseñado para monitorización 24/7, detección de amenazas y respuesta a incidentes en entornos empresariales.
 La conexión se realiza mediante la dirección interna del servidor (192.168.1.144), que es la dirección IP de la maquina virtual donde corre el servicio de Wazuh.
