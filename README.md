@@ -332,6 +332,7 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 **1. Obtención de API Key:**
 
 Registrarse en https://www.virustotal.com/gui/join-us
+
 Obtener API key desde perfil de usuario
 
 ![Configuración VirusTotal](api_virustotal.png)
