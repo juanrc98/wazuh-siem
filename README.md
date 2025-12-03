@@ -97,7 +97,7 @@ La conexión se realiza mediante la dirección interna del servidor (192.168.1.1
 
 ### 6 Creación de Nuevo Agente para Linux
 
-![Modificar Configuración](6%20Modificando%20configuracion%20agent.png)
+![Modificando configuración](https://raw.githubusercontent.com/juanrc98/wazuh-siem/main/6%20Modificando%20configuracion%20agente.png)
 
 **Parámetros de configuración:**
 La imagen muestra el asistente de Wazuh Manager para el despliegue de nuevos agentes en endpoints. Desde esta interfaz se selecciona el paquete adecuado para la instalación, en este caso Linux DEB amd64, con el objetivo de añadir un nuevo equipo al entorno monitorizado.
