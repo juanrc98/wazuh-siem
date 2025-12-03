@@ -291,9 +291,19 @@ El sistema ha procesado y correlacionado múltiples eventos de seguridad, detect
 ---
 
 ### 15 Dashboard MITRE ATT&CK 
-![Total de Ataques](14%20Total%20ataques%20recibidos.png)
+![Inventario de Vulnerabilidades](15.png)
 
 
+### 16 MITRE ATT&CK - Detalle de Técnica
+![MITRE Técnica T1548.003](16.png)
+
+
+### 17 Eventos de Seguridad MITRE
+![Eventos MITRE detectados](17.png)
+
+
+### 18 Dashboard MITRE ATT&CK
+![Dashboard MITRE ATT&CK](18.png)
 
   Próximos Pasos
 
