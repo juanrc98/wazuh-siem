@@ -1,6 +1,6 @@
 #  Wazuh SIEM - Proyecto de Monitorización y Detección de Amenazas
 
-### Implementación de Wazuh en Laboratorio de Ciberseguridad
+### Implementación de Wazuh
 
 Para este proyecto diseñé un entorno completo de monitorización y respuesta a incidentes utilizando Wazuh como plataforma central de seguridad. La arquitectura se compone de una máquina dedicada que ejecuta el servicio de Wazuh, accesible a través de un panel SIEM al que me conecto desde un equipo Windows funcionando como estación de analista.
 
