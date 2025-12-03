@@ -288,6 +288,13 @@ La desconexión del agente Wazuh es una técnica común utilizada por atacantes 
 **Análisis general:**
 El sistema ha procesado y correlacionado múltiples eventos de seguridad, detectando 1 táctica de MITRE ATT&CK (Defense Evasion) y manteniendo monitorización continua de requisitos PCI DSS. El pico de eventos coincide con la desconexión del agente, sugiriendo actividad anómala que requiere investigación forense.
 
+---
+
+### 15 Dashboard MITRE ATT&CK 
+![Total de Ataques](14%20Total%20ataques%20recibidos.png)
+
+
+
   Próximos Pasos
 
 -  Implementar reglas personalizadas de correlación
