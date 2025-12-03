@@ -93,7 +93,9 @@ En la sección Server address se especifica la dirección IP del servidor Wazuh 
 https://github.com/juanrc98/wazuh-siem/blob/main/7%20Comandos%20para%20configurar%20Endpoint.png
 
 Esta fase del proceso se ejecuta en la máquina destinada a actuar como endpoint dentro del entorno de monitorización. En ella se instala y configura el agente de Wazuh, componente fundamental para la recolección y envío de datos de seguridad al servidor central.
+
 La instalación incluye la configuración del agente con la dirección IP del servidor Wazuh, garantizando una comunicación segura y persistente para la transmisión de logs, eventos de integridad, alertas de seguridad y métricas del sistema. Además, se asigna un identificador único al endpoint para facilitar su seguimiento y gestión en el panel SIEM.
+
 Este despliegue permite integrar el endpoint al ecosistema de seguridad, habilitando la detección temprana de incidentes y el análisis forense dentro del SOC.
 
 
