@@ -244,8 +244,6 @@ apt-get remove python-crypto
 - **Superficie de ataque:** 5 paquetes comprometidos
 - **Impacto potencial:** Compromiso total del sistema
 
-**Estado:** ⚠️ Requiere atención inmediata | **Responsable:** Security Operations Team
-
 ---
 
 ### 13 Detección de Técnica de Evasión (MITRE ATT&CK)
