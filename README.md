@@ -7,7 +7,7 @@ Para este proyecto diseñé un entorno completo de monitorización y respuesta a
 Como endpoint monitorizado incorporé una máquina Metasploitable3, permitiendo observar en tiempo real la recolección de logs, análisis de integridad, detección de vulnerabilidades y correlación de eventos. Finalmente, utilicé una máquina Kali Linux para realizar distintos ataques controlados contra Metasploitable3, con el fin de validar la capacidad del SIEM para generar alertas, detectar comportamientos anómalos y registrar la actividad maliciosa.
 
 
-### 1 Preparación del entorno
+###  Preparación del entorno
 
 Descargaremos de la pagina web de Ubuntu su ISO oficial de Ubuntu Server, el cuál, usaremos para que corra nuestro servicio de Wazuh. Una vez instalado nuestro Ubuntu server ejecutaremos los siguientes comandos para preparar e instalar el servicio de Wazuh.
 
