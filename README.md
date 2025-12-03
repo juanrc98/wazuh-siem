@@ -23,7 +23,6 @@ https://github.com/juanrc98/wazuh-siem/blob/main/2%20Dashboard.png
 - **Agentes**: 1 agente desconectado (requiere investigación)
 - **Alertas 24h**: 0 críticas, 0 high, 5 medium, 7 low
 - **Vulnerabilidades**: 1 crítica, 7 high, 14 medium detectadas
-- **Top Packages Vulnerables**: urllib3 (9), npm (5), requests (5), pycrypto (2)
 
 **Módulos activos:**
 - Configuration Assessment (CIS Benchmarks)
