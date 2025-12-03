@@ -288,39 +288,6 @@ La desconexión del agente Wazuh es una técnica común utilizada por atacantes 
 **Análisis general:**
 El sistema ha procesado y correlacionado múltiples eventos de seguridad, detectando 1 táctica de MITRE ATT&CK (Defense Evasion) y manteniendo monitorización continua de requisitos PCI DSS. El pico de eventos coincide con la desconexión del agente, sugiriendo actividad anómala que requiere investigación forense.
 
-
-### Instalación de Wazuh Manager
-
-```bash
-# 1. Añadir repositorio oficial
-curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
-
-# 2. Actualizar repositorios
-apt-get update
-
-# 3. Instalar Wazuh Manager
-apt-get install wazuh-manager
-
-# 4. Verificar estado
-systemctl status wazuh-manager
-```
-
-### Instalación de Agente (Linux)
-
-```bash
-# Descargar e instalar
-wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.1-1_amd64.deb
-
-sudo WAZUH_MANAGER='<MANAGER_IP>' WAZUH_AGENT_NAME='<AGENT_NAME>' dpkg -i ./wazuh-agent_4.11.1-1_amd64.deb
-
-# Iniciar servicio
-sudo systemctl daemon-reload
-sudo systemctl enable wazuh-agent
-sudo systemctl start wazuh-agent
-```
-
   Próximos Pasos
 
 -  Implementar reglas personalizadas de correlación
