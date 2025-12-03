@@ -1,19 +1,17 @@
 #  Wazuh SIEM - Proyecto de Monitorización y Detección de Amenazas
 
- Descripción del Proyecto
--  Despliegue y configuración de infraestructura SIEM
--  Monitorización de endpoints Linux/Windows
--  Detección de técnicas MITRE ATT&CK
--  Gestión de vulnerabilidades
--  Análisis forense de eventos de seguridad
--  Threat Hunting y correlación de eventos
+### Implementación de Wazuh en Laboratorio de Ciberseguridad
+
+Para este proyecto diseñé un entorno completo de monitorización y respuesta a incidentes utilizando Wazuh como plataforma central de seguridad. La arquitectura se compone de una máquina dedicada que ejecuta el servicio de Wazuh, accesible a través de un panel SIEM al que me conecto desde un equipo Windows funcionando como estación de analista.
+
+Como endpoint monitorizado incorporé una máquina Metasploitable3, permitiendo observar en tiempo real la recolección de logs, análisis de integridad, detección de vulnerabilidades y correlación de eventos. Finalmente, utilicé una máquina Kali Linux para realizar distintos ataques controlados contra Metasploitable3, con el fin de validar la capacidad del SIEM para generar alertas, detectar comportamientos anómalos y registrar la actividad maliciosa.
 
 ### 1 Interfaz de Acceso al SIEM
 
 https://github.com/juanrc98/wazuh-siem/blob/main/1%20Wazuh%20Interfaz%20Login.png
 
 **Plataforma Wazuh SIEM** - Sistema de gestión de eventos de seguridad open source diseñado para monitorización 24/7, detección de amenazas y respuesta a incidentes en entornos empresariales.
-
+La conexión se realiza mediante la dirección interna del servidor (192.168.1.144), que es la dirección IP de la maquina virtual donde corre el servicio de Wazuh.
 ---
 
 ### 2 Dashboard Principal de Seguridad
@@ -83,9 +81,10 @@ https://github.com/juanrc98/wazuh-siem/blob/main/5%20Crear%20un%20nuevo%20agent.
 https://github.com/juanrc98/wazuh-siem/blob/main/6%20Modificando%20configuracion%20agente.png
 
 **Parámetros de configuración:**
-- Asignación a grupos de agentes (Default)
-- Configuración de políticas de seguridad
-- **Alerta**: Permisos insuficientes para lectura de grupos (requiere elevación de privilegios)
+La imagen muestra el asistente de Wazuh Manager para el despliegue de nuevos agentes en endpoints. Desde esta interfaz se selecciona el paquete adecuado para la instalación, en este caso Linux DEB amd64, con el objetivo de añadir un nuevo equipo al entorno monitorizado.
+
+En la sección Server address se especifica la dirección IP del servidor Wazuh (192.168.1.10), que permitirá establecer la comunicación entre el agente y el manager. Además, se configuran los Optional settings, donde se asigna un nombre identificativo para el nuevo agente (por ejemplo, Endpoint1) antes de generar las instrucciones o el paquete de instalación.
+
 
 ---
 
