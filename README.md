@@ -331,14 +331,13 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 
 **1. Obtención de API Key:**
 
-# Registrarse en https://www.virustotal.com/gui/join-us
-# Obtener API key desde perfil de usuario
+Registrarse en https://www.virustotal.com/gui/join-us
+Obtener API key desde perfil de usuario
 
 ![Configuración VirusTotal](api_virustotal.png)
 
-```
-
 **2. Configuración en Wazuh Manager:**
+
 ```xml
 <!-- /var/ossec/etc/ossec.conf -->
 <integration>
@@ -350,6 +349,7 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 ```
 
 **3. Reglas personalizadas:**
+
 ```xml
 <!-- /var/ossec/etc/rules/local_rules.xml -->
 <rule id="100002" level="12">
@@ -362,6 +362,7 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 ```
 
 **4. Reinicio del servicio:**
+
 ```bash
 systemctl restart wazuh-manager
 ```
