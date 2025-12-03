@@ -66,7 +66,7 @@ https://github.com/juanrc98/wazuh-siem/blob/main/4%20Deploy%20agents.png
 
 ---
 
-### 5 Creación de Nuevo Agente
+### 5 Creación de Nuevo Agente para Windows
 
 https://github.com/juanrc98/wazuh-siem/blob/main/5%20Crear%20un%20nuevo%20agent.png
 
@@ -78,7 +78,7 @@ https://github.com/juanrc98/wazuh-siem/blob/main/5%20Crear%20un%20nuevo%20agent.
 
 ---
 
-### 6 Configuración Avanzada del Agente
+### 6 Creación de Nuevo Agente para Linux
 
 https://github.com/juanrc98/wazuh-siem/blob/main/6%20Modificando%20configuracion%20agente.png
 
