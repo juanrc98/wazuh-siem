@@ -36,7 +36,7 @@ La conexión se realiza mediante la dirección interna del servidor (192.168.1.1
 
 ### 2 Dashboard Principal de Seguridad
 
-[<img src="images/2-Dashboard.png" alt="Dashboard Wazuh" width="600">](https://github.com/juanrc98/wazuh-siem/blob/main/2%20Dashboard.png)
+https://github.com/juanrc98/wazuh-siem/blob/main/2%20Dashboard.png
 
 **Vista general del estado de seguridad:**
 - **Agentes**: 1 agente desconectado (requiere investigación)
