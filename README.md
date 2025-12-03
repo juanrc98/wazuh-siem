@@ -333,6 +333,9 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 ```bash
 # Registrarse en https://www.virustotal.com/gui/join-us
 # Obtener API key desde perfil de usuario
+
+![Configuración VirusTotal](api_virustotal.png)
+
 ```
 
 **2. Configuración en Wazuh Manager:**
