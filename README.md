@@ -330,7 +330,7 @@ La integración con VirusTotal permite el análisis automatizado de archivos sos
 #### Proceso de Integración:
 
 **1. Obtención de API Key:**
-```bash
+
 # Registrarse en https://www.virustotal.com/gui/join-us
 # Obtener API key desde perfil de usuario
 
