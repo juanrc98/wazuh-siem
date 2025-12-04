@@ -34,7 +34,7 @@ Plataforma Wazuh SIEM - Sistema de gestión de eventos de seguridad open source 
 La conexión se realiza mediante la dirección interna del servidor (192.168.1.144), que es la dirección IP de la maquina virtual donde corre el servicio de Wazuh.
 
 
-### 2 Dashboard Principal de Seguridad
+### 2 Dashboard Principal de Wazuh
 
 ![Dashboard](2%20Dashboard.png)
 
